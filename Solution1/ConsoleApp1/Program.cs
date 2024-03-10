@@ -6,9 +6,9 @@ Console.WriteLine(avg(tab));
 static double avg(int[] tab)
 {
     double suma = 0;
-    foreach (var i in tab)
+    foreach (var li in tab)
     {
-        suma += i;
+        suma += li;
     }
 
     return suma / tab.Length;
