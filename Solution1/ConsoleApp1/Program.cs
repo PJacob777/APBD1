@@ -13,3 +13,15 @@ static double avg(int[] tab)
 
     return suma / tab.Length;
 }
+
+static int max(int[] tab)
+{
+    int maxv = 0;
+    foreach (int i in tab)
+    {
+        if (maxv < i)
+            maxv = i;
+    }
+
+    return maxv;
+}
